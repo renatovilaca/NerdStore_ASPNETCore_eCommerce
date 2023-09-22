@@ -7,7 +7,7 @@ namespace NSE.Identity.API.Models
         public class UserRegister
         {
             [Required(ErrorMessage = "The field {0} is required")]
-            [EmailAddress(ErrorMessage = "The field {0} está em formato inválido")]
+            [EmailAddress(ErrorMessage = "The field {0} has invalid format")]
             public string Email { get; set; }
 
             [Required(ErrorMessage = "The field {0} is required")]
